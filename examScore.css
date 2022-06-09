@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: rgb(234, 234, 234);
+}
+
+
+table,
+th,
+td {
+    border: 1px solid rgb(123, 123, 123);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    /* background-color: white; */
+    color: rgb(28, 28, 28);
+
+
+
+}
+
+
+.record {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(42, 106, 255);
+}
+
+.record h1 {
+    color: white;
+    font-size: 50px;
+    width: 650px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.record h3,
+h4 {
+    color: white;
+    font-weight: 450;
+    font-size: 18px;
+    padding-left: 3.5rem;
+}
+
+.table-hero img {
+    width: 30%;
+    height: 30%;
+    /* padding-left: 3rem; */
+}
+
+
+.main-table {
+    padding-top: 2rem;
+}
+
+.completeTable {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.footerText {
+    text-align: center;
+    padding-top: 1rem;
+}
